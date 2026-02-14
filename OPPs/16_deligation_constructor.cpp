@@ -17,7 +17,7 @@ public:
 
     // Delegating constructor (only name provided)
     Student(const std::string& n)
-        : Student(n, 18, 0.0)   // Delegates to primary constructor
+        : Student(n, 18, 0.0)   // Delegates to primary constructor (thisis initializer list)
     {
         std::cout << "Delegating constructor called\n";
     }
